@@ -1,0 +1,77 @@
+/* styles.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Add spacing and padding */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+header {
+    
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header a {
+    color: #007BFF; /* Light blue color */
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.location{
+    float: right;
+}
+
+/*.container {
+    max-width: 800px;
+    margin: 0 auto;
+}*/
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+/* Style lists inside headings */
+.inside-heading {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+a {
+    color: #007BFF; /* Light blue color */
+    text-decoration: none;
+}
+
+/* Change the color of links on hover */
+a:hover {
+    color: #0056b3; /* Slightly darker blue on hover */
+}
+
+.project-link {
+    float: right;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
